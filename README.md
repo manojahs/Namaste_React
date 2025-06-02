@@ -7,7 +7,7 @@ Example:
 React.createElement("h1",{},"Namaste")
 
 <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-This is the DOM
+This is the DOM create a root and render all the element to Root
 example:
 ReactDOM.createRoot("root")
 
