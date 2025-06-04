@@ -11,7 +11,26 @@ This is the DOM create a root and render all the element to Root
 example:
 ReactDOM.createRoot("root")
 
-crossorigin is helpful for getting When a browser requests a resource from a different domain (e.g., CDN), it’s considered a cross-origin request. 
+crossorigin is helpful for getting When a browser requests a resource from a different domain (e.g., CDN), it’s considered a cross-origin request.
+
+//  <div id="parent">
+//     <div id="child">    
+//         <h1></h1>
+//     </div>
+//  </div>
+ 
+ 
+ App.js
+--------------
+ const header = React.createElement(
+       "div",{ id: "parent" },
+       React.createElement(
+           "div",{id:"child"},
+           React.createElement("h1", {}, "I am h1 tag"))
+   );
+
+   const root = ReactDOM.createRoot(document.getElementById("root"));
+   root.render(header);
 
 
 
