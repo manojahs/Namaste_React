@@ -46,6 +46,8 @@ npm install -D parcel
 
 **Parcel**
  is a web application bundler that automatically compiles and bundles your JavaScript, HTML, CSS, and other files into optimized output for the browser.
+This is a **bold statement** in my README.
+
 
 
 
