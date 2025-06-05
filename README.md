@@ -32,8 +32,10 @@ crossorigin is helpful for getting When a browser requests a resource from a dif
    const root = ReactDOM.createRoot(document.getElementById("root"));
    root.render(header);
 
--- Here header is the React Element which is will create the object and once u call the render it will converts it to HTML
+Here header is the React Element which is will create the object and once u call the render it will converts it to HTML
 
+NPM is repo for all the packages
+package.json is the configuration for npm
 
 
 
