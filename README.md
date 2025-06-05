@@ -46,6 +46,9 @@ npm install -D parcel
 
 Parcel
  is a web application bundler that automatically compiles and bundles your JavaScript, HTML, CSS, and other files into optimized output for the browser.
+1)dev build 
+2)Local Server
+3)HMR (hot module replacement)
 
 npx parcel index.html
 npx is the executing the installed packages so above command it will be helpful for creating the own server 
