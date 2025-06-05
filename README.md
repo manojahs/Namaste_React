@@ -59,7 +59,9 @@ Parcel
 npx parcel index.html
 npx is the executing the installed packages so above command it will be helpful for creating the own server 
 
-
+Browserlist
+-------------
+Helpful for providing the browsers list that react app needs to be run
 
 
 
