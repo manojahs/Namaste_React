@@ -49,6 +49,12 @@ Parcel
 1)dev build 
 2)Local Server
 3)HMR (hot module replacement)
+4)File watching algorithm- thats why refresh rate will be high
+5)Caching- faster builds
+6)Image optimization
+7)Minification
+8)Bundling
+9)Compress
 
 npx parcel index.html
 npx is the executing the installed packages so above command it will be helpful for creating the own server 
