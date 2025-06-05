@@ -44,7 +44,7 @@ npm install -D parcel
 | Dev Dependency     | `npm install -D parcel` | `devDependencies` |
 | Regular Dependency | `npm install parcel`    | `dependencies`    |
 
-`**Parcel**`
+Parcel
  is a web application bundler that automatically compiles and bundles your JavaScript, HTML, CSS, and other files into optimized output for the browser.
 
 
