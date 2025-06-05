@@ -37,6 +37,12 @@ Here header is the React Element which is will create the object and once u call
 NPM is repo for all the packages
 package.json is the configuration for npm
 
+npm install -D parcel
+
+| Purpose            | Command                 | Saved In          |
+| ------------------ | ----------------------- | ----------------- |
+| Dev Dependency     | `npm install -D parcel` | `devDependencies` |
+| Regular Dependency | `npm install parcel`    | `dependencies`    |
 
 
 
