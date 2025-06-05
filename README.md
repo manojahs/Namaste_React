@@ -34,7 +34,7 @@ crossorigin is helpful for getting When a browser requests a resource from a dif
 
 Here header is the React Element which is will create the object and once u call the render it will converts it to HTML
 
-NPM is repo for all the packages
+NPM is repo for all the packages and it is usefull for installing the package
 package.json is the configuration for npm
 
 npm install -D parcel
@@ -46,6 +46,10 @@ npm install -D parcel
 
 Parcel
  is a web application bundler that automatically compiles and bundles your JavaScript, HTML, CSS, and other files into optimized output for the browser.
+
+npx parcel index.html
+npx is the executing the installed packages so above command it will be helpful for creating the own server 
+
 
 
 
