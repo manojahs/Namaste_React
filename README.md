@@ -109,7 +109,7 @@ ex: return ( 1.......
 2.......);
 3)While rendering the component component name must be under <Component_Name/>.
 
-Inserting One component inside another
+Inserting One component inside another (Component Composition)
 ---------------------------------------
 const Title = () =>(
     <div>
