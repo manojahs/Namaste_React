@@ -73,8 +73,30 @@ It will print object bcz
 JSX will be converting into Reactelement which is handled by Babel
 so this jsxheading it works as a createElement later Js-object once render it will convert into HTMl
 
+Rendering Jsx component
+-------------------------
+There are 2 types for component
+1) Functional component
+2) Class component
 
+1)Function component
+--------------------
 
+ const Header = () =>{
+ return (<div><h1 id="react">Namaste React</h1>
+     <h2>Manoj</h2>
+     </div>
+ )}
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<Header/>);
+
+Rules
+-------
+1)Function name must be Capital letter
+2) If function is using more than 2 lines of code then make inside the angular bracker
+ex: return ( 1.......
+2.......);
 
 ```
 
