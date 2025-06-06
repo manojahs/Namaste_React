@@ -65,7 +65,7 @@ Helpful for providing the browsers list that react app needs to be run
 
 JSX
 -------
-jsx is the html like syntax
+jsx is the html/xml like syntax
 
 
 
