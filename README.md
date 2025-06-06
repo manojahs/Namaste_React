@@ -108,5 +108,27 @@ Rules
 ex: return ( 1.......
 2.......);
 3)While rendering the component component name must be under <Component_Name/>.
+
+Inserting One component inside another
+---------------------------------------
+const Title = () =>(
+    <div>
+    <h1>This is the Title</h1>
+    <h1>By Manoj</h1>
+    </div>
+)
+ 
+ const Header = () =>
+  (<div>
+   <Title/>
+    <h1 id="react">Namaste React</h1>
+     </div>
+ )
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<Header/>);
+
+
+
 ```
 
