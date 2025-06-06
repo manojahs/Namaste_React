@@ -88,6 +88,16 @@ There are 2 types for component
      </div>
  )}
 
+or
+
+ const Header = () =>
+  (<div><h1 id="react">Namaste React</h1>
+     <h2>Manoj</h2>
+     </div>
+ )
+
+
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<Header/>);
 
