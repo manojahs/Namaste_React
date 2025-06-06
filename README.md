@@ -128,7 +128,18 @@ const Title = () =>(
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<Header/>);
 
+if you want use javascript inside the function u can use with curley braces {}
 
+exam:
+let a =100;
+
+ const Header = () =>
+  (<div>
+   <Title/>
+    {a}
+    <h1 id="react">Namaste React</h1>
+     </div>
+ )
 
 ```
 
