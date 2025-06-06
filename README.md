@@ -120,9 +120,9 @@ const Title = () =>(
  
  const Header = () =>
   (<div>
-   <Title/>
-<Title><Title/>
-{Title()}
+   <Title/>              //anything is fine in below 3
+   <Title><Title/>
+   {Title()}
     <h1 id="react">Namaste React</h1>
      </div>
  )
