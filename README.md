@@ -70,6 +70,7 @@ jsx is the html/xml like syntax
 const jsxheading = <h1>Namaste React</h1>
 console.log(jsxheading);
 It will print object bcz
+JSX will be converting into Reactelement which is handled by Babel
 so this jsxheading it works as a createElement later Js-object once render it will convert into HTMl
 
 
