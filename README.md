@@ -121,6 +121,8 @@ const Title = () =>(
  const Header = () =>
   (<div>
    <Title/>
+<Title><Title/>
+{Title()}
     <h1 id="react">Namaste React</h1>
      </div>
  )
