@@ -128,7 +128,7 @@ const Title = () =>(
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<Header/>);
 
-if you want use javascript inside the function u can use with curley braces {}
+if you want use javascript inside the function component (jsx) u can use with curley braces {}
 
 exam:
 let a =100;
