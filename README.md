@@ -97,6 +97,6 @@ Rules
 2) If function is using more than 2 lines of code then make inside the angular bracker
 ex: return ( 1.......
 2.......);
-
+3)While rendering the component component name must be under </>.
 ```
 
