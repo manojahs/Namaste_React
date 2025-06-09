@@ -81,6 +81,7 @@ There are 2 types for component
 
 1)Function component
 --------------------
+A function that returns jsx code is called as functional component
 
  const Header = () =>{
  return (<div><h1 id="react">Namaste React</h1>
