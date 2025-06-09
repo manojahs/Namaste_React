@@ -144,6 +144,19 @@ let a =100;
      </div>
  )
 
+This is standard
+const Heading = () => {
+    return (
+     <div>
+        <Title/>
+        {a}
+        <h2>Hi Brother</h2>
+        </div>
+    );
+};
+
+
+
 React Element
 -------------
 
