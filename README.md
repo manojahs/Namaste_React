@@ -167,6 +167,11 @@ const title = (
     </div>
 );
 
+Props
+--------------
+Passing a props to a component. its like normal arguments to a function
+
+
 
 ```
 
