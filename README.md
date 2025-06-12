@@ -185,6 +185,21 @@ const RestaurantCard = ({resName,Cuisine,rating}) => {
   );
 };
 
+or 
+
+const RestaurantCard = (props) => {
+
+const {resName,Cuisine,rating} = props
+  return (
+    <div className="restaurant-card">
+        <img className="manis" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZHhaFT7rualJfwxrlfAWo16h8Z6xKWAbOA&s"/>
+      <p>{resName}</p>
+      <p>{Cuisine}</p>
+      <p>{rating}</p>
+    </div>
+  );
+};
+
 
 ```
 
