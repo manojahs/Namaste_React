@@ -172,6 +172,18 @@ Props
 Passing a props to a component. its like normal arguments to a function
 It will help for dynamic data binding
 
+ <RestaurantCard resName="Megana Food" Cuisine="biriyani" rating= "5"/>
+
+const RestaurantCard = ({resName,Cuisine,rating}) => {
+  return (
+    <div className="restaurant-card">
+        <img className="manis" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZHhaFT7rualJfwxrlfAWo16h8Z6xKWAbOA&s"/>
+      <p>{resName}</p>
+      <p>{Cuisine}</p>
+      <p>{rating}</p>
+    </div>
+  );
+};
 
 
 ```
