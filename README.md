@@ -201,5 +201,11 @@ const {resName,Cuisine,rating} = props
 };
 
 
+Config driver UI
+----------
+
+Config which drives the UI its depend on data each places it will show different data bcz thats why config are being made
+
+
 ```
 
