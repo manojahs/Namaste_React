@@ -170,6 +170,7 @@ const title = (
 Props
 --------------
 Passing a props to a component. its like normal arguments to a function
+It will help for dynamic data binding
 
 
 
